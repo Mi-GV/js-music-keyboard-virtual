@@ -11,7 +11,7 @@ body {
   width: 780px;
   border-radius: 20px;
   padding: 35px 40px;
-  background-color: black;
+  background: linear-gradient(purple,rgb(255, 0, 123),rgb(50, 4, 52));
 }
 
 .container header {
@@ -96,15 +96,21 @@ header .column span {
   margin: 0 -22px 0 -22px;
   border: 1px solid black;
   border-radius: 0 0 5px 5px;
-  background: linear-gradient(#333, #000);
+  background: linear-gradient(#333, #42023f);
+
 }
 
 .piano-keys span {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   width: 100%;
   text-align: center;
   font-size: 1.13rem;
+}
+.white span{
+  height: 96.18%;
+  text-align: center;
+  padding-top: 190px;
 }
 
 .piano-keys .white.active {
